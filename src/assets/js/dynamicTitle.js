@@ -1,7 +1,7 @@
 window.onload = function () {
   const favicon = document.getElementById("favicon");
   let pageTitle = document.title;
-  let attentionMessage = "Come back";
+  let attentionMessage = "Hi, I'm here!";
 
   document.addEventListener("visibilitychange", function (e) {
     let isPageActive = !document.hidden;
