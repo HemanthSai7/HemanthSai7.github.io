@@ -5,108 +5,30 @@ AOS.init();
 const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
-    title: "Data Science",
-    cardImage: "/src/assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/browse/data-science",
+    title: "Machine Learning Approach to Detect Dust on Solar Panels in UAE.",
+    cardImage: "/src/assets/images/education-page/omdena.jfif",
+    moocLink:
+      "https://drive.google.com/file/d/1Ngg9CL2Oykd8mbHz0V61PmOSqbtJfcmY/view?usp=sharing",
   },
   {
-    title: "Cryptography",
-    cardImage: "/src/assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/cryptography-for-beginners/",
-  },
-  {
-    title: "Machine Learning",
-    cardImage: "/src/assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/learn/machine-learning",
-  },
-  {
-    title: "Introduction to HTML 5",
-    cardImage: "/src/assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
-  },
-  {
-    title: "Introduction to CSS 3",
-    cardImage: "/src/assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
-  },
-  {
-    title: "Javascript",
-    cardImage: "/src/assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-javascript--ud803",
-  },
-  {
-    title: "Bootstrap 4",
-    cardImage: "/src/assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/bootstrap-4-tutorials/",
-  },
-  {
-    title: "Intro to React",
+    title: "Introduction to Linux",
     cardImage: "/src/assets/images/education-page/edx.svg",
-    moocLink: "https://www.edx.org/learn/reactjs",
+    moocLink:
+      "https://courses.edx.org/certificates/087143719eb941fca49b5d4e3438cddd",
   },
   {
-    title: "Intro to React Native",
+    title: "Databases and SQL for Data Science with Python",
     cardImage: "/src/assets/images/education-page/coursera2.svg",
     moocLink:
-      "https://www.coursera.org/lecture/react-native/introduction-to-react-native-Eax0D",
+      "https://drive.google.com/file/d/1JnW7-hkh4Cwte5esz4fw38TYhUvgeGPb/view",
   },
   {
-    title: "NodeJS, Express and MongoDB",
+    title: "Exploratory Data Analysis for Machine Learning",
     cardImage: "/src/assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/learn/server-side-nodejs",
-  },
-  {
-    title: "XML-AJAX",
-    cardImage: "/src/assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/xml-from-beginner-to-expert/",
-  },
-  {
-    title: "Data Structures & Algorithms",
-    cardImage: "/src/assets/images/education-page/udacity.svg",
     moocLink:
-      "https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256",
+      "https://www.coursera.org/account/accomplishments/verify/MYEVMS4K435Z",
   },
 ];
-
-const experience = [
-  {
-    img: "/src/assets/images/education-page/c1.png",
-  },
-  {
-    img: "/src/assets/images/education-page/c2.jpg",
-  },
-  {
-    img: "/src/assets/images/education-page/c3.png",
-  },
-  {
-    img: "/src/assets/images/education-page/c4.png",
-  },
-  {
-    img: "/src/assets/images/education-page/c5.jpg",
-  },
-];
-
-let currentItem = 0;
-
-const img = document.getElementById("image");
-
-const prevBtn = document.querySelector("#prevBtn");
-const nextBtn = document.querySelector("#nextBtn");
-
-window.addEventListener("DOMContentLoaded", function () {
-  showExperience();
-});
-
-function showExperience() {
-  setInterval(function () {
-    if (currentItem === experience.length) {
-      currentItem = 0;
-    }
-    const item = experience[currentItem];
-    img.src = item.img;
-    currentItem++;
-  }, 3000);
-}
 
 const showCards = () => {
   let output = "";

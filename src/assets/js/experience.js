@@ -62,22 +62,22 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
-    title: "Script Winter Of Code 2021",
-    cardImage: "/src/assets/images/experience-page/swoc.jfif",
+    title: "Scratch-AI ",
+    cardImage: "/src/assets/images/experience-page/mbai.jpg",
     description:
-      "Participated and thoroughly contributed to the python and API projects of Script Winter Of Code 2021.",
+      "Maintained Scratch-AI, a repository with different algorithms of Machine Learning & Deep Learning implemented from scratch.",
   },
   {
     title: "Hacktoberfest 2022",
     cardImage: "/src/assets/images/experience-page/h22.png",
     description:
-      "Responsible for handling open source contributions for the project Scratch-AI.",
+    "Responsible for handling open source contributions for the project Scratch-AI.",
   },
   {
-    title: "Scratch-AI ",
-    cardImage: "/src/assets/images/experience-page/mbai.jpg",
+    title: "Script Winter Of Code 2021",
+    cardImage: "/src/assets/images/experience-page/swoc.jfif",
     description:
-      "Maintained Scratch-AI, a repository with different algorithms of Machine Learning & Deep Learning implemented from scratch. The main motto behind this repository is to grasp the mathematical aspect and intuition of different AI algorithms. 🤖 AI is being used everywhere nowadays, but people don't know about implementation of complex mathematical functions behind the scene.",
+      "Participated and thoroughly contributed to the python and API projects of Script Winter Of Code 2021.",
   },
 ];
 
