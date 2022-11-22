@@ -1,7 +1,7 @@
 window.onload = function () {
   const favicon = document.getElementById("favicon");
   let pageTitle = document.title;
-  let attentionMessage = "Hi, I'm here!";
+  let attentionMessage = "Hemanth Sai";
 
   document.addEventListener("visibilitychange", function (e) {
     let isPageActive = !document.hidden;
@@ -26,7 +26,6 @@ window.onload = function () {
       favicon.href = "/src/assets/images/dp_male.svg";
     } else {
       document.title = attentionMessage;
-      favicon.href = "/src/assets/images/folded.png";
     }
   }
 };
