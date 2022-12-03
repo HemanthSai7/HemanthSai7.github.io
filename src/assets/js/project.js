@@ -22,7 +22,7 @@ const projects = [
     title: "Sign Language Recognition",
     cardImage: "/src/assets/images/project-page/sl.png",
     Previewlink:
-      "https://hemanthsai7-signlanguage-pytorch-app-dvwppj.streamlitapp.com/",
+      "https://signlanguage.streamlitapp.com/",
     Githublink: "https://github.com/HemanthSai7/SignLanguage-Pytorch",
   },
   {
@@ -35,14 +35,14 @@ const projects = [
     title: "Glow Green",
     cardImage: "/src/assets/images/project-page/gg.jpeg",
     Previewlink:
-      "https://hemanthsai7-singleinference-1-app-qnma4e.streamlit.app/",
+      "https://singleinference-1.streamlit.app/",
     Githublink: "https://github.com/Glow-Green/GlowGreen",
   },
   {
     title: "Cassava Leaf Disease Classification",
     cardImage: "/src/assets/images/project-page/cld2.png",
     Previewlink:
-      "https://hemanthsai7-cassava-gdsc-streamlit-deploy-app-0t72eo.streamlit.app/",
+      "https://cassava-gdsc.streamlit.app/",
     Githublink: "https://github.com/HemanthSai7/Arch-DL",
   },
   {
