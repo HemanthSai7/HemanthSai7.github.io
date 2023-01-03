@@ -23,10 +23,10 @@ const moocscards = [
       "https://drive.google.com/file/d/1JnW7-hkh4Cwte5esz4fw38TYhUvgeGPb/view",
   },
   {
-    title: "Exploratory Data Analysis for Machine Learning",
+    title: "Machine Learning Engineering for Production (MLOps)",
     cardImage: "/src/assets/images/education-page/coursera2.svg",
     moocLink:
-      "https://www.coursera.org/account/accomplishments/verify/MYEVMS4K435Z",
+      "https://www.coursera.org/account/accomplishments/specialization/certificate/2VJUE9MTTVB2",
   },
 ];
 

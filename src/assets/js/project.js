@@ -33,7 +33,7 @@ const projects = [
   },
   {
     title: "Glow Green",
-    cardImage: "/src/assets/images/project-page/gg.jpeg",
+    cardImage: "/src/assets/images/project-page/gg.png",
     Previewlink:
       "https://singleinference-1.streamlit.app/",
     Githublink: "https://github.com/Glow-Green/GlowGreen",
@@ -53,7 +53,7 @@ const projects = [
   },
   {
     title: "Scrapster",
-    cardImage: "/src/assets/images/project-page/scrapster.png",
+    cardImage: "/src/assets/images/project-page/scrap.png",
     Previewlink: "",
     Githublink: "https://github.com/HemanthSai7/Scrapster",
   },

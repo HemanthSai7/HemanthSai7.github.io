@@ -69,13 +69,13 @@ const volunteershipcards = [
   },
   {
     title: "Hacktoberfest 2022",
-    cardImage: "/src/assets/images/experience-page/h22.png",
+    cardImage: "/src/assets/images/experience-page/h22.jpg",
     description:
     "Responsible for handling open source contributions for the project Scratch-AI.",
   },
   {
     title: "Script Winter Of Code 2021",
-    cardImage: "/src/assets/images/experience-page/swoc.jfif",
+    cardImage: "/src/assets/images/experience-page/swoc.jpg",
     description:
       "Participated and thoroughly contributed to the python and API projects of Script Winter Of Code 2021.",
   },
