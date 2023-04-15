@@ -21,9 +21,20 @@ const projects = [
   {
     title: "Sign Language Recognition",
     cardImage: "/src/assets/images/project-page/sl.png",
-    Previewlink:
-      "https://signlanguage.streamlitapp.com/",
+    Previewlink: "https://signlanguage.streamlitapp.com/",
     Githublink: "https://github.com/HemanthSai7/SignLanguage-Pytorch",
+  },
+  {
+    title: "Termsbrief",
+    cardImage: "/src/assets/images/project-page/termsbrief.jpg",
+    Previewlink: "https://tncsummariser.streamlit.app/",
+    Githublink: "https://github.com/HemanthSai7/TnC",
+  },
+  {
+    title: "EligiLoan",
+    cardImage: "/src/assets/images/project-page/eligiloan.jpg",
+    Previewlink: "https://eligiloan.streamlit.app/",
+    Githublink: "https://github.com/HemanthSai7/EligiLoan",
   },
   {
     title: "CapTraduire",
@@ -34,15 +45,13 @@ const projects = [
   {
     title: "Glow Green",
     cardImage: "/src/assets/images/project-page/gg.png",
-    Previewlink:
-      "https://singleinference-1.streamlit.app/",
+    Previewlink: "https://singleinference-1.streamlit.app/",
     Githublink: "https://github.com/Glow-Green/GlowGreen",
   },
   {
     title: "Cassava Leaf Disease Classification",
     cardImage: "/src/assets/images/project-page/cld2.png",
-    Previewlink:
-      "https://cassava-gdsc.streamlit.app/",
+    Previewlink: "https://cassava-gdsc.streamlit.app/",
     Githublink: "https://github.com/HemanthSai7/Arch-DL",
   },
   {
